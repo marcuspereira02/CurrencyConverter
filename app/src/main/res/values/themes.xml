@@ -2,13 +2,11 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.CurrencyConverter" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+       <item name="colorPrimary">@color/blue</item>
     </style>
 
     <style name="RoundedTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxBackgroundColor">@color/white</item>
-        <item name="boxBackgroundMode">outline</item>
-        <item name="boxStrokeColor">@color/white</item>
         <item name="boxCornerRadiusTopStart">12dp</item>
         <item name="boxCornerRadiusTopEnd">12dp</item>
         <item name="boxCornerRadiusBottomStart">12dp</item>
